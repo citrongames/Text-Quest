@@ -24,5 +24,9 @@ public class TextArea : MonoBehaviour
         {
             _transform.sizeDelta = new Vector2 (0, _defaultHeight + newHeight - _maxTextHeight);
         }
+        else
+        {
+            _transform.sizeDelta = new Vector2 (0, _defaultHeight);
+        }
     }
 }
